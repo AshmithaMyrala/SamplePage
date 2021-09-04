@@ -1,0 +1,178 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    width:unset;
+    height: 80px;
+    background-color:darkcyan;
+    line-height: 75px;
+    margin: 0px;
+    
+    padding: 0px 80px;
+}
+nav .logo{
+    float: left;
+    
+}
+nav .logo p{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0px;
+    
+}
+nav ul li a:hover{
+    color: #000000;
+}
+nav ul :active{
+    color: #000000;
+}
+.body2{
+    background-color: rgb(198, 236, 236);
+}
+.content .logo2 img{
+    margin-left: 1400px;
+    margin-bottom: -51px;
+    width: 88px;
+    
+}
+.content p{
+    font-size: 44px;
+    font-weight: bold;
+    font-family:serif;
+    text-align: center;
+}
+hr.center{
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 20px;
+    height: 5px;
+    background: black;
+    
+    
+}
+.para p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: serif;
+}
+.pic{
+    display: block;
+}
+.pic img{
+    width: 294px;
+    height: 207px;
+    float: left;
+    margin-left: 167px;
+}
+#button, #button2{
+    background-color:darkcyan;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display:-moz-inline-box;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-top: 83px;
+    display: inline-block;
+
+}
+#button2{
+    margin-left: 40px;
+}
+hr.left{
+    height: 4px;
+    background: black;
+    margin-left: 71px;
+    margin-right: 1268px;
+}
+.sideheading1{
+    margin-left: 58px;
+    padding: 0;
+    margin-top: 83px;
+    font-size: 32px;
+    font-family: serif;
+}
+.cards{
+    height: 36vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 187px;
+    margin-top: 13px;
+    width: 228px;
+    box-shadow: 2px 4px 4px 0px;
+    background: rgb(227, 232, 240);
+
+}
+.picture img{
+    width: 46px;
+    text-align: left;
+    border-radius: 8px;
+    margin-block-start: -95px;
+    margin-left: -33px;
+    margin-top: 107px;
+}
+
+.name{
+    font-size: 30px;
+    margin-left: -28px;
+    margin-top: 2px;
+
+}
+.side1{
+    margin-left: -25px;
+    margin-top: 22px;
+    
+}
+.side2{
+    font-size: 20px;
+    color: rgba(88, 33, 165, 0.918);
+    margin-left: -24px;
+    margin-top: 4px;
+}
+.card-footer{
+    padding: 98px 8px;
+    margin-top: -45px;
+}
+.min{
+    display: flex;
+    align-items: center;
+}
+.item{
+    flex: 1;
+    font-size: 15px;
+    color: rgba(88, 33, 165, 0.918);
+    padding: 12px 10px;
+}
+.item span{
+    display: block;
+    font-size: 10px;
+    word-spacing: 5px;
+    color: black;
+}
+.col {
+    display: inline-flex;
+}
